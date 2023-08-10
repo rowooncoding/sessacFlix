@@ -143,6 +143,10 @@
 - 상속과 인터페이스를 최소 1번 이상 사용하여야 한다.
 
 ---
+## 클래스 다이어그램
+![image](https://github.com/rowooncoding/sessacFlix/assets/114975279/c0b51fc9-22ef-47e9-99fd-755781736443)
+
+---
 ## 아카이브 코드
 
 ```
