@@ -33,26 +33,17 @@ public class RunFlix {
 
             // 해당 메뉴 넘버에 맞는 메뉴 보여주기
             if(menuNumber == 1){
-                System.out.println("컨텐츠 순위!");
+                // 랭킹
+                sessacFlix.rankContents();
 
             } else if (menuNumber == 2) {
-                // 1. 2번 고름
-                // 3. 컨텐츠 목록 출력 : 제목, 줄거리, 타입
-                // 4. 원하는 영화 번호 고름
-                // 5. 상세 내용 출력
-                // 5-1. 본편 영상과 예고편 영상 2개가 목록으로 나옴 부모 클래스에 있는 필드변수도 나와야함
+                // 영화
+                sessacFlix.movieContents();
             } else if (menuNumber == 3) {
                 // 시리즈
-                // 1. 제목 contentM.get("title")
-                // 2. 줄거리 contentM.get("summary")
-                // 3. 카테고리(시리즈인지 영화인지 if문 확인 후 contentM.get("type")으로 출력)
-            } else if (menuNumber == 4) {
-                // 관심목록
-                // 1. 제목 contentM.get("title")
-                // 2. 줄거리 contentM.get("summary")
-                // 3. 카테고리(시리즈인지 영화인지 if문 확인 후 contentM.get("type")으로 출력)
+                sessacFlix.seriesContents();
             }
-            break;
         }
+        scanner.close();
     }
 }
