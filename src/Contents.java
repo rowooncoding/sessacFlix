@@ -25,6 +25,10 @@ public class Contents implements Comparable<Contents> {
         this.medias = (List<String>) archive.contentM.get(key).get("medias");
     }
 
+    public interface ContentListener {
+        void onAddWish();
+    }
+
     @Override
     public int compareTo(Contents contents) {
         if (contents.views > views) {

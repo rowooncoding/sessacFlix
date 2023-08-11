@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96a80cf1-211b-4915-b21d-ff2c2a0a7151" name="변경" comment=":art: 상세목록 출력 완 #10">
-      <change afterPath="$PROJECT_DIR$/src/ContentListener.java" afterDir="false" />
+    <list default="true" id="96a80cf1-211b-4915-b21d-ff2c2a0a7151" name="변경" comment=":art: 필드변수 생성 및 인터페이스 생성 #13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContentListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContentListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -111,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691727855944</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=":art: 필드변수 생성 및 인터페이스 생성 #13">
+      <option name="closed" value="true" />
+      <created>1691730405894</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691730405894</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -120,6 +128,7 @@
     <MESSAGE value=":art: 리스트 출력 준비 #5" />
     <MESSAGE value=":art: 모든 리스트 출력 완 #7" />
     <MESSAGE value=":art: 상세목록 출력 완 #10" />
-    <option name="LAST_COMMIT_MESSAGE" value=":art: 상세목록 출력 완 #10" />
+    <MESSAGE value=":art: 필드변수 생성 및 인터페이스 생성 #13" />
+    <option name="LAST_COMMIT_MESSAGE" value=":art: 필드변수 생성 및 인터페이스 생성 #13" />
   </component>
 </project>
