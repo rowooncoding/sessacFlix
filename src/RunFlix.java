@@ -35,13 +35,18 @@ public class RunFlix {
             if(menuNumber == 1){
                 // 랭킹
                 sessacFlix.rankContents();
-
+                menuNumber = scanner.nextInt();
+                sessacFlix.detailContents(menuNumber);
             } else if (menuNumber == 2) {
                 // 영화
                 sessacFlix.movieContents();
+                menuNumber = scanner.nextInt();
+                sessacFlix.detailContents(menuNumber);
             } else if (menuNumber == 3) {
                 // 시리즈
                 sessacFlix.seriesContents();
+                menuNumber = scanner.nextInt();
+                sessacFlix.detailContents(menuNumber);
             }
         }
         scanner.close();

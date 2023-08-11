@@ -7,6 +7,7 @@ public class SessacFlix {
     private List<Contents> contentsList;
     private List<String> contentIdList;
     private List<String> mediaIdList;
+    private int menuNumber;
 
     public SessacFlix(OTTArchive ottArchive){
         contentsList = new LinkedList<Contents>();
@@ -81,5 +82,29 @@ public class SessacFlix {
 
         System.out.println("시리즈 컨텐츠");
         showContentsList();
+    }
+
+    public void detailContents(int menuNumber){
+        this.menuNumber = menuNumber - 1;
+        Contents detailList = contentsList.get(this.menuNumber);
+
+        System.out.println("제목: "+detailList.title);
+        System.out.println("줄거리: "+detailList.summary);
+        System.out.println("감독: "+detailList.direc);
+        System.out.println("연도: "+detailList.year);
+        System.out.println("출연: "+detailList.cast);
+        System.out.println(detailList.type);
+        System.out.println("0. 찜하기");
+        System.out.println();
+
+        if(detailList.type.equals("영화")) {
+
+            Movie m = new Movie(ottArchive, detailList.cId);
+            m.movieInfo();
+        }else if(detailList.type.equals("시리즈")) {
+            Series s = new Series(ottArchive, detailList.cId);
+            s.seriesInfo();
+        }
+
     }
 }
