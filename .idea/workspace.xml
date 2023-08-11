@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96a80cf1-211b-4915-b21d-ff2c2a0a7151" name="변경" comment=":art: 모든 리스트 출력 완 #7">
+    <list default="true" id="96a80cf1-211b-4915-b21d-ff2c2a0a7151" name="변경" comment=":art: 상세목록 출력 완 #10">
+      <change afterPath="$PROJECT_DIR$/src/ContentListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunFlix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunFlix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Series.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SessacFlix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SessacFlix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +95,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691719722256</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=":art: 상세목록 출력 완 #10">
+      <option name="closed" value="true" />
+      <created>1691727842569</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691727842569</updated>
+    </task>
+    <task id="LOCAL-00006" summary=":art: 상세목록 출력 완 #10">
+      <option name="closed" value="true" />
+      <created>1691727855944</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691727855944</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -105,6 +119,7 @@
     <MESSAGE value=":art: 첫 문구 출력 완료 #3" />
     <MESSAGE value=":art: 리스트 출력 준비 #5" />
     <MESSAGE value=":art: 모든 리스트 출력 완 #7" />
-    <option name="LAST_COMMIT_MESSAGE" value=":art: 모든 리스트 출력 완 #7" />
+    <MESSAGE value=":art: 상세목록 출력 완 #10" />
+    <option name="LAST_COMMIT_MESSAGE" value=":art: 상세목록 출력 완 #10" />
   </component>
 </project>
